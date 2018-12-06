@@ -1,0 +1,27 @@
+{
+    "name": "annonyme/router",
+    "description": "url router componente",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hannes Pries",
+            "email": "hp@hannespries.de",
+            "homepage": "https://www.hannespries.de"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "de\\hannespries": "src/"
+        },
+        "psr-4": {
+            "de\\hannespries\\": "src/"
+        }
+    }
+}
